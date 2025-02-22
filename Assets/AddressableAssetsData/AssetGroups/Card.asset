@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Card
+  m_EditorClassIdentifier: 
+  m_GroupName: Card
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c9ce261fc25604fabbbb372f87fb3f29
+  m_SerializeEntries:
+  - m_GUID: 10599af127e2d47edbff6038caac7190
+    m_Address: "\u8BC5\u5492"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39af73c75a4ad46ab93ee01f402d3a5f
+    m_Address: "\u6C42\u77E5"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d723304a11224dc4a5c2719f2bfec3a
+    m_Address: "\u795E\u5723"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0310d8d1f45545c1ad57451be9ac013
+    m_Address: "\u901F\u653B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b980e1f01e4684d6dab0b5db7352ee22
+    m_Address: "\u56DE\u590D"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bec08e13984d04d71bfc999ae90a66db
+    m_Address: "\u6C72\u53D6"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2176409764924444bb6fdc5b79cb438
+    m_Address: "\u9F13\u821E"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9557c6e9b6148089b1173f3ffb4300
+    m_Address: "\u5B88\u62A4"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CardData
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a33f731001c984cb68d1ab7ea0b5fbd8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 16558429ece724ae7b4e793985f101fe, type: 2}
+    - {fileID: 11400000, guid: e946d62ac86fb4a34b0cd4afd1e44c38, type: 2}

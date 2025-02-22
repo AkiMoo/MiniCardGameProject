@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127783ff0b4d2470daae56092dd26130, type: 3}
+  m_Name: "\u521B\u4E16\u4E4B\u679C"
+  m_EditorClassIdentifier: 
+  goodName: "\u521B\u4E16\u4E4B\u679C"
+  goodImage: {fileID: 3483859434839241108, guid: a2fef2ba3d8ca44f9b8aa3d21ba4f96d, type: 3}
+  price: 20
+  goodDescription: "\u751F\u547D\u4E0A\u9650\u589E\u52A020\u70B9"
+  effects:
+  - {fileID: 11400000, guid: 403eb732ad6db4cdbb309791a48d314d, type: 2}

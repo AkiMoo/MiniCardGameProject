@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2564b98f58791486c80e973e1a25e43c, type: 3}
+  m_Name: NormalEnemyActionData
+  m_EditorClassIdentifier: 
+  actions:
+  - intentSprite: {fileID: 21300000, guid: 98d622e3aaa3e464a933a2720153fdae, type: 3}
+    effect: {fileID: 11400000, guid: 987f695d7daf54a04b655c24682bced7, type: 2}
+  - intentSprite: {fileID: 21300000, guid: 5b7941c6c325844069867a772800fad7, type: 3}
+    effect: {fileID: 11400000, guid: 2121f8136843045b199b9981aa3e8bb0, type: 2}
+  - intentSprite: {fileID: 21300000, guid: e60462361db3140c59c13b7122a2106c, type: 3}
+    effect: {fileID: 11400000, guid: 5b8b4a6b655214b8eaf6187251e1cc5b, type: 2}
+  - intentSprite: {fileID: 21300000, guid: 5b7941c6c325844069867a772800fad7, type: 3}
+    effect: {fileID: 11400000, guid: c3b41d8e390c54bd5b33367e08b172e6, type: 2}

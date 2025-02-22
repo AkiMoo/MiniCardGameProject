@@ -1,0 +1,22 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/GameplayUSS.uss?fileID=7433441132597879392&amp;guid=c21b40c2df7b34ce4a7d67aa2beb40bd&amp;type=3#GameplayUSS" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:Button text="Button" name="Card" class="turnbutton" style="background-color: rgba(188, 188, 188, 0); width: 220px; height: 380px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; left: 5px; right: 1px; top: 1px; bottom: 1px;">
+            <engine:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Materials/CardBack.png?fileID=2800000&amp;guid=47fb0c0f0c9634d8ba0e3cfcb566dab2&amp;type=3#CardBack&quot;); -unity-background-scale-mode: scale-to-fit; width: 210px; height: 370px; position: absolute; top: 1px; right: 1px; bottom: 1px; left: 1px;">
+                <engine:VisualElement name="CardSprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire%20bolt/lvl3%20fire%20arrows.png?fileID=2800000&amp;guid=3efa703aa3ad4144caa3159daea83407&amp;type=3#lvl3 fire arrows&quot;); -unity-background-scale-mode: stretch-to-fill; height: 129px; position: absolute; width: 180px; left: 14px; right: 16px; top: 88px;" />
+                <engine:VisualElement name="Top" style="flex-grow: 1; left: 40px; right: 40px; top: 20px; position: absolute; height: 50px; justify-content: center; align-items: center;">
+                    <engine:Label text="流星箭" name="CardName" style="position: absolute; -unity-font-definition: url(&quot;project://database/Assets/Fonts/SourceHanSansCN-1.000/SourceHanSansCN-Light.otf?fileID=12800000&amp;guid=a44256392ea39450da4fdad2eea8a67c&amp;type=3#SourceHanSansCN-Light&quot;); -unity-font-style: bold; font-size: 30px; top: auto; left: auto;" />
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; top: 221px; position: absolute; align-items: center; justify-content: center; left: 40px; right: 40px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/SourceHanSansCN-1.000/SourceHanSansCN-Medium.otf?fileID=12800000&amp;guid=5205f9624f7b54be8ac118e9c17a5a18&amp;type=3#SourceHanSansCN-Medium&quot;); font-size: 24px; -unity-font-style: bold;">
+                    <engine:Label text="攻击" name="CardType" style="-unity-font-style: bold; justify-content: center; align-items: center;" />
+                </engine:VisualElement>
+                <engine:VisualElement name="VisualElement" style="flex-grow: 1; bottom: auto;">
+                    <engine:Label text="对敌方所有单位造成10点伤害" name="CardDescription" style="position: absolute; bottom: 20px; left: 20px; right: 20px; height: 80px; align-items: center; -unity-font-style: bold; font-size: 20px; -unity-text-outline-width: 0; flex-wrap: nowrap; white-space: normal; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Fonts/%E9%9C%9E%E9%B9%AD%E5%B0%9A%E6%99%BA%E9%BB%91.ttf?fileID=12800000&amp;guid=211c61d6fb5b33442aa2a9d3f6594b9a&amp;type=3#霞鹭尚智黑&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Cost" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Card/card_slot.png?fileID=2800000&amp;guid=8ae7689670922454695b3dde5a5945a9&amp;type=3#card_slot&quot;); -unity-background-scale-mode: scale-to-fit; width: 45px; height: 45px; top: 0; right: 175px; position: absolute; left: auto;">
+                <engine:Label text="4" name="Mana" style="position: relative; align-items: center; justify-content: center; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); font-size: 20px; -unity-font-style: bold; top: 2px; -unity-text-align: upper-center;" />
+            </engine:VisualElement>
+        </engine:Button>
+    </engine:VisualElement>
+</engine:UXML>

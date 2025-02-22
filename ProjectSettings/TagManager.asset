@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - ActivateArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Card
+  - Water
+  - UI
+  - Character
+  - icons
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Backgroud
+    uniqueID: 3197201861
+    locked: 0
+  - name: Character
+    uniqueID: 1617117107
+    locked: 0
+  - name: Front
+    uniqueID: 3228464293
+    locked: 0
+  - name: Card
+    uniqueID: 2657196193
+    locked: 0
+  - name: 
+    uniqueID: 787590715
+    locked: 0

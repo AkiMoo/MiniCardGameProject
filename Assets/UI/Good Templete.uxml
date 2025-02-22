@@ -1,0 +1,22 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/GameplayUSS.uss?fileID=7433441132597879392&amp;guid=c21b40c2df7b34ce4a7d67aa2beb40bd&amp;type=3#GameplayUSS" />
+    <engine:VisualElement template="CardTemplete">
+        <engine:VisualElement style="flex-grow: 1;">
+            <engine:Button text="Button" name="Good" class="turnbutton" style="background-color: rgba(188, 188, 188, 0); width: 220px; height: 380px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; left: 1px; right: 1px; top: 1px; bottom: 1px; background-image: url(&quot;project://database/Assets/Art/MyAIArtWork/GoodBack.png?fileID=2800000&amp;guid=d5c8217169fb04cd886fa188397afa21&amp;type=3#GoodBack&quot;); -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Fonts/%E9%9C%9E%E9%B9%AD%E5%B0%9A%E6%99%BA%E9%BB%91.ttf?fileID=12800000&amp;guid=211c61d6fb5b33442aa2a9d3f6594b9a&amp;type=3#霞鹭尚智黑&quot;);">
+                <engine:VisualElement name="Background" style="flex-grow: 1; background-image: none; -unity-background-scale-mode: stretch-to-fill; width: 210px; height: 370px; position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: flex;">
+                    <engine:VisualElement name="GoodSprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon%20enchant/fire%20sword.jpg?fileID=2800000&amp;guid=3f9f66d39a0a73a40819ea9d727caff4&amp;type=3#fire sword&quot;); -unity-background-scale-mode: stretch-to-fill; height: 175px; position: absolute; width: 180px; left: 18px; right: 18px; top: 89px;" />
+                    <engine:VisualElement name="Top" style="flex-grow: 1; left: 40px; right: 40px; top: 20px; position: absolute; height: 50px; justify-content: center; align-items: center;">
+                        <engine:Label text="创世之剑" name="GoodName" style="position: absolute; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Fonts/%E9%9C%9E%E9%B9%AD%E5%B0%9A%E6%99%BA%E9%BB%91.ttf?fileID=12800000&amp;guid=211c61d6fb5b33442aa2a9d3f6594b9a&amp;type=3#霞鹭尚智黑&quot;); -unity-font-style: bold; font-size: 30px; top: auto; left: auto; color: rgb(255, 255, 255);" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="VisualElement" style="flex-grow: 1; bottom: auto; left: 0;">
+                        <engine:Label text="基础攻击力提升" name="GoodDescription" style="position: absolute; bottom: 30px; left: 20px; right: 20px; height: 80px; align-items: center; -unity-font-style: normal; font-size: 20px; -unity-text-outline-width: 0; flex-wrap: nowrap; white-space: normal; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/Fonts/AlimamaDongFangDaKai-Regular.ttf?fileID=12800000&amp;guid=538eff64abb1a4fb4ab646e754102f71&amp;type=3#AlimamaDongFangDaKai-Regular&quot;);" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; position: absolute; height: 44px; width: auto; top: auto; left: 30px; right: 30px; flex-direction: row; bottom: 20px;">
+                    <engine:Label text="价格" name="PriceLabel" style="width: 76px; height: 37px; -unity-text-align: middle-right; font-size: 20px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Unity.ttf?fileID=12800000&amp;guid=f4eec857a4fdf2f43be0e9f3d1a984e7&amp;type=3#Unity&quot;);" />
+                    <engine:Label text="20" name="Price" style="-unity-font-style: bold; color: rgb(255, 221, 0); font-size: 20px;" />
+                </engine:VisualElement>
+            </engine:Button>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

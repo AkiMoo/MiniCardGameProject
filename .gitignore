@@ -1,0 +1,9 @@
+Library/
+*.csproj
+Logs/
+.DS_Store
+.vscode/
+Temp/
+mono_crash.aeb069406.0.json
+mono_crash.mem.83707.1.blob
+Assets/TextMesh Pro/Fonts/Fonts/*霞鹭尚智黑*

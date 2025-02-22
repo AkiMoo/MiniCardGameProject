@@ -1,0 +1,46 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+public class GameWinPanel : MonoBehaviour
+{
+    private VisualElement rootElement;
+    private Button pickCardButton;
+    private Button backToMapButton;
+
+    [Header("事件广播")]
+    public ObjectEventSO loadMapEvent;
+    public ObjectEventSO pickCardEvent;
+
+
+    
+
+    private void OnEnable()
+    {
+        rootElement = GetComponent<UIDocument>().rootVisualElement;
+        pickCardButton = rootElement.Q<Button>("PickCard");
+        backToMapButton = rootElement.Q<Button>("BackToMap");
+
+        backToMapButton.clicked += OnBackToMapButtonClicked;
+        pickCardButton.clicked += OnPickCardButtonClicked;
+    }
+    private void OnDisable()
+    {
+        backToMapButton.clicked -= OnBackToMapButtonClicked;
+        pickCardButton.clicked -= OnPickCardButtonClicked;
+    }
+    private void OnBackToMapButtonClicked()
+    {
+        loadMapEvent.RaiseEvent(null, this);
+    }
+
+    private void OnPickCardButtonClicked()
+    {
+        pickCardEvent.RaiseEvent(null, this);
+    }
+
+    public void OnFinishPickCardEvent(){
+        pickCardButton.style.display = DisplayStyle.None;
+    }
+}

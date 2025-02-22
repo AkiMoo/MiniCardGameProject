@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0718e9aae38a94040a834dbe430b5aac, type: 3}
+  m_Name: PlayerDEF
+  m_EditorClassIdentifier: 
+  maxValue: 0
+  currentValue: 0
+  valueChangeEvent: {fileID: 0}
+  description: "\u9632\u5FA1\u53D8\u5316\u6709\u7279\u6548\u6216\u8005\u5176\u4ED6\u9700\u6C42\u7684\u8BDD\u9700\u8981\u5C1A\u5728\u4E0A\u9762event\u6DFB\u52A0\u4E8B\u4EF6"

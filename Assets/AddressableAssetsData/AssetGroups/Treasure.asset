@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Treasure
+  m_EditorClassIdentifier: 
+  m_GroupName: Treasure
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8a2bfc3d9b9b94c6cbd9dacc6f7fd436
+  m_SerializeEntries:
+  - m_GUID: 0031295f7126c4ecb88a0b0fcd90ce13
+    m_Address: "\u91CD\u751F"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TreasureData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 646e0dba3867c47e4b0a74429d889cc5
+    m_Address: "\u795E\u76FE"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TreasureData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0acc10e387eb4b4887899197dec589d
+    m_Address: "\u795E\u51FB"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TreasureData
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a33f731001c984cb68d1ab7ea0b5fbd8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7bbcb4a681787468d942f44b98c22f0e, type: 2}
+    - {fileID: 11400000, guid: e2d4ce085934b4cc3ad9c7a1f33b220d, type: 2}

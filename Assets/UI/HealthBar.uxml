@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/HealthBarUSS.uss?fileID=7433441132597879392&amp;guid=dc01d2df881b74fbd8cc4c05b0bce801&amp;type=3#HealthBarUSS" />
+    <engine:ProgressBar value="100" title="40/60" name="HealthBar" style="top: -20px; left: -150px; width: 300px; position: absolute; font-size: 28px; -unity-font-style: bold; -unity-text-outline-width: 2px; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(0, 0, 0);">
+        <engine:VisualElement picking-mode="Ignore" name="Defense" style="flex-grow: 1; position: absolute; background-image: url(&quot;project://database/Assets/Art/Intents/panel_defense_green.png?fileID=2800000&amp;guid=ee42ae6b2be584cdb94479582452c861&amp;type=3#panel_defense_green&quot;); height: 50px; width: 50px; -unity-background-scale-mode: scale-to-fit; top: -10px; left: -50px; display: none;">
+            <engine:Label text="5" name="DefenseAmount" style="justify-content: center; -unity-text-align: middle-center; display: flex;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" name="Buff" style="flex-grow: 1; position: absolute; background-image: url(&quot;project://database/Assets/Art/Intents/buff_attack_up.png?fileID=2800000&amp;guid=810448b82870c45058f8b2de5423274a&amp;type=3#buff_attack_up&quot;); height: 50px; width: 50px; -unity-background-scale-mode: scale-to-fit; top: -10px; left: auto; display: none; right: -50px; -unity-text-align: middle-center;">
+            <engine:Label text="5" name="BuffTurn" style="justify-content: center; -unity-text-align: middle-center; display: flex; height: 44px; position: absolute; width: 17px; left: 43px;" />
+        </engine:VisualElement>
+        <engine:VisualElement picking-mode="Ignore" name="Intent" style="flex-grow: 1; position: absolute; background-image: url(&quot;project://database/Assets/Art/Intents/buff_defense.png?fileID=2800000&amp;guid=e60462361db3140c59c13b7122a2106c&amp;type=3#buff_defense&quot;); height: 50px; width: 50px; -unity-background-scale-mode: scale-to-fit; top: -48px; left: auto; display: flex; right: 127px; -unity-text-align: middle-center;">
+            <engine:Label text="5" name="IntentAmount" style="justify-content: center; -unity-text-align: middle-center; display: flex; height: 44px; position: absolute; width: 28px; left: 45px; top: 0; font-size: 30px;" />
+        </engine:VisualElement>
+    </engine:ProgressBar>
+</engine:UXML>
